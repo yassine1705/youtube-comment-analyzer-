@@ -1,1 +1,6 @@
+streamlit
+pandas
+google-api-python-client
+transformers
+torch
 
