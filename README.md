@@ -4,7 +4,7 @@ An AI-powered web application that analyzes YouTube comments and classifies thei
 
 ## Live Demo
 
-Try the application online: **[Open the YouTube Comment Analyzer](YOUR_STREAMLIT_APP_URL)**
+Try the application online: **[Open the YouTube Comment Analyzer](https://ptzrxlkdvqjzfdt38y5tkw.streamlit.app/)**
 
 ## Overview
 
@@ -52,7 +52,7 @@ The project demonstrates the integration of Natural Language Processing (NLP), a
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/yassine1705/youtube-comment-analyzer-.git
 cd youtube-comment-analyzer
 ```
 
