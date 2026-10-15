@@ -1,4 +1,3 @@
-
 import re
 import pandas as pd
 import streamlit as st
@@ -17,10 +16,29 @@ st.set_page_config(
     layout="wide"
 )
 
+
 st.title("📊 YouTube Comment Analyzer")
-st.write(
-    "Analyze YouTube comments using AI sentiment analysis."
-)
+
+st.markdown("""
+### Understand what people think about a YouTube video
+
+This application uses a Transformer-based AI model
+to classify YouTube comments into three categories:
+
+- 😊 Positive
+- 😐 Neutral
+- 😠 Negative
+
+**Features**
+- Retrieve comments using the YouTube Data API
+- Analyze sentiment and confidence scores
+- Identify predictions that may need review
+- Explore sentiment statistics and percentages
+- Filter comments and export results to CSV
+
+**Model:** CardiffNLP RoBERTa sentiment model
+""")
+
 
 
 # -----------------------------
